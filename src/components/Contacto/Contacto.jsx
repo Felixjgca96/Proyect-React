@@ -29,23 +29,23 @@ const Contacto = () => {
         <ContactoStyled>
           <TlfYGmailStyled>
             <GmailStyled>
-              <img src="./src/assets/img/gmail.png" alt="" />
+              <img src="./gmail.png" alt="" />
               <p>Felixjgca@gmail.com</p>
             </GmailStyled>
             <TlfStyled>
-              <img src="./src/assets/img/tlf.png" alt="" />
+              <img src="./tlf.png" alt="" />
               <p>+54 9 11-27700307</p>
             </TlfStyled>
           </TlfYGmailStyled>
           <IconosStyled>
             <a href="https://m.facebook.com/Felixc6" target="_blank">
-              <img src="./src/assets/img/face.png" alt="" />
+              <img src="./face.png" alt="" />
             </a>
             <a href="https://www.instagram.com/felixjgca/" target="_blank">
-              <img src="./src/assets/img/ig.png" alt="" />
+              <img src="./ig.png" alt="" />
             </a>
             <a href="https://wa.me/5491127700307" target="_blank">
-              <img src="./src/assets/img/wa.png" alt="" />
+              <img src="./wa.png" alt="" />
             </a>
           </IconosStyled>
         </ContactoStyled>

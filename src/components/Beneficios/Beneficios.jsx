@@ -15,21 +15,21 @@ const Beneficios = () => {
       </p>
       <BeneficiosCardStyled>
         <CardStyled>
-          <img src="./src/assets/img/1.png" alt="imagen" />
+          <img src="./1.png" alt="imagen" />
           <p>
             Trabajo responsable y rápido, con buena capacidad de finalizacion en
             cada detalle.
           </p>
         </CardStyled>
         <CardStyled>
-          <img src="./src/assets/img/2.png" alt="imagen" />
+          <img src="./2.png" alt="imagen" />
           <p>
             Empresa apasionada por la costura, muy profesional, detallista y con
             buena reputacion.
           </p>
         </CardStyled>
         <CardStyled>
-          <img src="./src/assets/img/3.png" alt="imagen" />
+          <img src="./3.png" alt="imagen" />
           <p>Excelente atención y buena presencia.</p>
         </CardStyled>
       </BeneficiosCardStyled>

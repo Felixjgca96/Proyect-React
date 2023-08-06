@@ -12,7 +12,7 @@ const Navbar = () => {
     <NavbarContainerStyled>
       <LogoContainerStyled>
         <a href="/#">
-          <img src="./src/assets/img/logo.png" alt="logo" />
+          <img src="./logo.png" alt="logo" />
         </a>
       </LogoContainerStyled>
       <LinksContainerStyled>
@@ -22,11 +22,11 @@ const Navbar = () => {
         <a href="#contacto">Contacto</a>
       </LinksContainerStyled>
       <MenuContainerStyled>
-        <img src="./src/assets/img/menu.png" alt="menu" />
+        <img src="./menu.png" alt="menu" />
       </MenuContainerStyled>
       <IconoContainerStyled>
-        <img src="./src/assets/img/usuario.png" alt="icono" />
-        <img src="./src/assets/img/carritodecompras.png" alt="icono" />
+        <img src="./usuario.png" alt="icono" />
+        <img src="./carritodecompras.png" alt="icono" />
       </IconoContainerStyled>
     </NavbarContainerStyled>
   );
