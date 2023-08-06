@@ -65,6 +65,7 @@ export const MenuContainerStyled = styled.div`
     display: none;
     @media (max-width: 910px) {
       display: flex;
+      margin-right: 40px;
     }
   }
   img:hover {
@@ -87,5 +88,9 @@ export const IconoContainerStyled = styled.div`
 
   img:hover {
     background: #b7b7a4;
+  }
+
+  @media (max-width: 910px) {
+    display: none;
   }
 `;
