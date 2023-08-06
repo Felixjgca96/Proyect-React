@@ -7,7 +7,6 @@ export const GlobalStyles = createGlobalStyle`
     }
   html{
     scroll-behavior: smooth;
-    scroll-padding-top: 30px;
 
   }
     
