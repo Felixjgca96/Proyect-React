@@ -10,6 +10,7 @@ export const CategoriasWrapper = styled.section`
   border-radius: 20px;
   padding: 0px;
   padding-top: 30px;
+  background-color: #000000;
 
   h2 {
     display: flex;

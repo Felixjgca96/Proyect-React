@@ -5,13 +5,14 @@ export const HeroContainerStyled = styled.section`
   justify-content: center;
   align-items: center;
   max-width: 1200px;
-  width: 90%;
+  width: 95%;
   height: auto;
   margin-top: 20px;
   padding-top: 10px;
   padding-bottom: 20px;
   border-radius: 20px;
-  border-bottom: 2px solid #ffffff;
+  background-color: #000000;
+
   flex-wrap: wrap;
 `;
 
@@ -24,7 +25,6 @@ export const HeroTextContainerStyled = styled.div`
   width: 100%;
   margin-right: 30px;
   margin-left: 30px;
-  background-color: #000000;
   text-align: center;
   align-items: center;
   border-radius: 20px;

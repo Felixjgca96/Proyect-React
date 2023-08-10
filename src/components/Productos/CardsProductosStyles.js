@@ -7,7 +7,6 @@ export const ProductosWrapper = styled.section`
   align-items: center;
   width: 95%;
   max-width: 1200px;
-  border-bottom: 2px solid #ffffff;
   margin-top: 0px;
   border-radius: 15px;
   padding-bottom: 10px;

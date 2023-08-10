@@ -8,7 +8,7 @@ export const ContactoContainerStyled = styled.section`
 
   padding-bottom: 30px;
   border-radius: 20px;
-  border-bottom: 2px solid #ffffff;
+  background-color: #000000;
 
   h2 {
     font-size: 4rem;
@@ -43,8 +43,6 @@ export const MapsStyled = styled.div`
   height: 310px;
   gap: 5px;
   border-radius: 15px;
-  border-left: 2px solid #ffffff;
-  border-right: 2px solid #ffffff;
 
   iframe {
     width: 200px;
@@ -68,8 +66,7 @@ export const ContactoStyled = styled.div`
   height: 310px;
   gap: 10px;
   border-radius: 15px;
-  border-left: 2px solid #ffffff;
-  border-right: 2px solid #ffffff;
+
   h2 {
     font-size: 1rem;
   }

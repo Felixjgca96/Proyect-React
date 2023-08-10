@@ -9,7 +9,6 @@ export const BeneficiosContainerStyled = styled.section`
 
   padding-bottom: 20px;
   border-radius: 20px;
-  border-bottom: 2px solid #ffffff;
 
   h2 {
     font-size: 4rem;
