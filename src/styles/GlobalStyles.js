@@ -1,35 +1,32 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
-    :root {
-        --azul-bg: #0b353e;
-        --btn: rgb(69, 72, 69);
-    }
-  html{
-    scroll-behavior: smooth;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
 
-  }
+
     
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #090909;
-      font-family: 'Montserrat', sans-serif;
-      color: white;
-      -webkit-tap-highlight-color: transparent;
-      overflow-x: hidden;
+body {
 
-    }
-    a {
-    text-decoration: none;
-    color: white;
-    }
-    a:visited {
-    color: white;
-    }
-    li {
-    list-style: none;
-    }
+  background: #090909;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: white;
+}
+li {
+list-style: none;
+}
 
 `;

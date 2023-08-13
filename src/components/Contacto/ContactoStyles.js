@@ -31,6 +31,10 @@ export const MapsYContactoStyled = styled.div`
   padding-top: 20px;
   border-radius: 20px;
   flex-wrap: wrap;
+  @media (max-width: 640px) {
+    flex-direction: column;
+    gap: 5px;
+  }
 `;
 
 export const MapsStyled = styled.div`
@@ -73,6 +77,9 @@ export const ContactoStyled = styled.div`
   img {
     width: 50px;
     height: 50px;
+  }
+  @media (max-width: 640px) {
+    height: 200px;
   }
 `;
 

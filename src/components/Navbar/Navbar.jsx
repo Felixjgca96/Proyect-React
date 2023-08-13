@@ -21,12 +21,10 @@ const Navbar = () => {
         <a href="#productos">Productos</a>
         <a href="#contacto">Contacto</a>
       </LinksContainerStyled>
-      <MenuContainerStyled>
-        <img src="./menu.png" alt="menu" />
-      </MenuContainerStyled>
       <IconoContainerStyled>
-        <img src="./usuario.png" alt="icono" />
-        <img src="./carritodecompras.png" alt="icono" />
+        <img className="menuamburgueza" src="./menu.png" alt="menu" />
+        <img className="usuario" src="./usuario.png" alt="icono" />
+        <img className="carrito" src="./carritodecompras.png" alt="icono" />
       </IconoContainerStyled>
     </NavbarContainerStyled>
   );
