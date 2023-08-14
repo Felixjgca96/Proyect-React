@@ -1,6 +1,8 @@
 import { useState } from "react";
 
 import Navbar from "./components/Navbar/Navbar";
+import { MenuDespegable } from "./components/Navbar/MenuContext";
+
 import Layout from "./components/Layout/Layout";
 import Hero from "./components/Hero/Hero";
 import Beneficios from "./components/Beneficios/Beneficios";
@@ -12,7 +14,9 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-      <Navbar />
+      <MenuDespegable>
+        <Navbar />
+      </MenuDespegable>
       <Layout>
         <Hero />
         <Beneficios />
