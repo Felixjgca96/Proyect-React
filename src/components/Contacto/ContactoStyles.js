@@ -3,6 +3,7 @@ export const ContactoContainerStyled = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   max-width: 1200px;
   width: 95%;
 
@@ -30,10 +31,10 @@ export const MapsYContactoStyled = styled.div`
   margin-right: 20px;
   padding-top: 20px;
   border-radius: 20px;
-  flex-wrap: wrap;
   @media (max-width: 640px) {
     flex-direction: column;
     gap: 5px;
+    display: flex;
   }
 `;
 

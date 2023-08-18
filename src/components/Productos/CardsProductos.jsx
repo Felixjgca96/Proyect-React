@@ -4,7 +4,7 @@ import {
   ProductosContainer,
   ProductosWrapper,
 } from "./CardsProductosStyles";
-import { products } from "../../data/Products";
+import { products } from "../../data/products";
 import CardProducto from "./CardProducto";
 
 const CardsProductos = () => {

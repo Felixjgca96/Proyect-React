@@ -1,30 +1,24 @@
-import { useState } from "react";
+import Routes from "./routes/Routes";
 
 import Navbar from "./components/Navbar/Navbar";
-import { MenuDespegable } from "./components/Navbar/MenuContext";
-
 import Layout from "./components/Layout/Layout";
-import Hero from "./components/Hero/Hero";
-import Beneficios from "./components/Beneficios/Beneficios";
-import Categorias from "./components/Categorias/Categorias";
-import CardsProductos from "./components/Productos/CardsProductos";
-import Contacto from "./components/Contacto/Contacto";
 import Footer from "./components/Footer/Footer";
+import Home from "./pages/Home/Home";
+import Felix from "./pages/Felix/Felix";
+import Hero from "./components/Hero/Hero";
+import PageNotFound from "./pages/PageNotFound/PageNotFound";
+import { BurgerMenu } from "./components/Navbar/BurgerMenuContext";
 
 function App() {
   return (
     <>
-      <MenuDespegable>
+      <BurgerMenu>
         <Navbar />
-      </MenuDespegable>
+      </BurgerMenu>
       <Layout>
-        <Hero />
-        <Beneficios />
-        <Categorias />
-        <CardsProductos />
-        <Contacto />
+        <Routes />
+        <Footer />
       </Layout>
-      <Footer />
     </>
   );
 }

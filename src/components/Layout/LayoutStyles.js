@@ -1,12 +1,9 @@
 import styled from "styled-components";
-export const LayoutWrapper = styled.main`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  height: auto;
+
+export const LayoutWrapper = styled.div`
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 `;

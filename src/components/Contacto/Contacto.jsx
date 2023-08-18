@@ -13,7 +13,7 @@ import {
 const Contacto = () => {
   return (
     <ContactoContainerStyled id="contacto">
-      <h2>Contacto</h2>
+      <h2>Ubícanos</h2>
       <MapsYContactoStyled>
         <MapsStyled>
           <iframe

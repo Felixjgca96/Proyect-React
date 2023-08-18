@@ -13,7 +13,6 @@ export const HeroContainerStyled = styled.section`
   border-radius: 20px;
   background-color: #000000;
   flex-wrap: wrap;
-  margin-top: 110px;
 `;
 
 export const HeroTextContainerStyled = styled.div`
