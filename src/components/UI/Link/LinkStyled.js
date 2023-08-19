@@ -15,10 +15,19 @@ export const StyledLink = styled(Link)`
   z-index: 2;
 
   & span {
-    font-weight: 700;
-    font-size: 1rem;
-    background: var(--btn-gradient);
-    -webkit-background-clip: text;
-    color: white;
+    padding: 0.5rem 1.5rem;
+    background: black;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #ffffff;
+
+    &:hover {
+      background: #b7b7a4;
+      color: black;
+    }
   }
 `;

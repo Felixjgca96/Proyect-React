@@ -12,32 +12,6 @@ export const HomeWrapper = styled.div`
   margin-top: 60px;
 
   h2 {
-    font-weight: 400;
+    font-weight: 500;
   }
-`;
-
-export const CategoriasWrapper = styled.section`
-  margin-top: 8rem;
-`;
-
-export const ProductosWrapper = styled.section`
-  padding-top: 5rem;
-`;
-
-export const BeneficiosWrapper = styled.section`
-  margin-top: 5rem;
-  width: 100%;
-
-  h2 {
-    font-weight: 400;
-  }
-`;
-export const ContactoWrapper = styled.section`
-  margin-top: 8rem;
-`;
-export const ButtonContainerStyled = styled.div`
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 3rem;
 `;

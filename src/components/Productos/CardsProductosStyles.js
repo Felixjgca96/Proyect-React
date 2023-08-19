@@ -30,6 +30,44 @@ export const ProductosContainer = styled.div`
   max-width: 1150px;
   gap: 10px;
 `;
+export const ButtonMore = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  padding: 0.2rem 1rem;
+  background: black;
+  border-radius: 1rem;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  margin-top: 10px;
+
+  &:hover {
+    background: #b7b7a4;
+    color: black;
+  }
+`;
+
+export const ButtonCard = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+  padding: 0.2rem 1rem;
+  background: black;
+  border-radius: 1rem;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+
+  &:hover {
+    background: #b7b7a4;
+    color: black;
+  }
+`;
 
 export const ProductosCard = styled.div`
   display: flex;
@@ -84,43 +122,4 @@ export const CardPrice = styled.span`
   font-weight: 600;
   font-size: 14px;
   color: white;
-`;
-
-export const ButtonCard = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-  font-size: 14px;
-  color: white;
-  padding: 0.2rem 1rem;
-  background: black;
-  border-radius: 1rem;
-  border: 1px solid #ffffff;
-  cursor: pointer;
-
-  &:hover {
-    background: #b7b7a4;
-    color: black;
-  }
-`;
-
-export const ButtonMore = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-  font-size: 16px;
-  color: white;
-  padding: 0.2rem 1rem;
-  background: black;
-  border-radius: 1rem;
-  border: 1px solid #ffffff;
-  cursor: pointer;
-  margin-top: 10px;
-
-  &:hover {
-    background: #b7b7a4;
-    color: black;
-  }
 `;

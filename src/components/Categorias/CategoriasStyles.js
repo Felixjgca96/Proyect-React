@@ -42,12 +42,11 @@ export const CardCategoria = styled.div`
   gap: 5px;
   width: 100px;
   padding: 0.5rem 0.5rem;
-  background-color: ${({ selected }) =>
-    selected ? "var(--orange-bg)" : "var(--gray-bg)"};
   border-radius: 15px;
 
   &:hover {
     background: #b7b7a4;
+    color: black;
   }
 
   cursor: pointer;
@@ -63,7 +62,7 @@ export const CardCategoria = styled.div`
 
 export const BorderDecoration = styled.div`
   height: 5px;
-  width: 30%;
-  background: var(--btn-gradient);
+  width: 40%;
+  background: black;
   border-radius: 15px;
 `;

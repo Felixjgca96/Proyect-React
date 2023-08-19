@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const FoundContainerStyled = styled.div`
   display: flex;
@@ -8,6 +8,11 @@ export const FoundContainerStyled = styled.div`
   margin: 0 auto;
   height: 60vh;
   gap: 5rem;
+  margin-top: 60px;
+
+  img {
+    width: 200px;
+  }
 `;
 
 export const FoundTextStyled = styled.div`

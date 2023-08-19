@@ -20,10 +20,3 @@ export const LoginInputStyled = styled.input`
     border: 1px solid white;
   }
 `;
-
-export const ErrorMessageStyled = styled.p`
-  margin: 0;
-  margin-top: 5px;
-  color: #fb103d;
-  font-size: 14px;
-`;

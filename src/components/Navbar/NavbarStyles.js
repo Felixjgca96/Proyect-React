@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
 
 export const HeaderContainerStyled = styled.header`
   position: fixed;
@@ -13,35 +12,6 @@ export const NavbarContainerStyled = styled.nav`
   display: flex;
   justify-content: space-between;
   padding: 0.3rem 1rem;
-`;
-export const LinksContainerStyled = styled.div`
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-
-  a {
-    padding: 0.5rem 1.5rem;
-    background: black;
-    border-radius: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    font-weight: 500;
-    border: 1px solid #ffffff;
-  }
-
-  a:hover {
-    background: #b7b7a4;
-    color: black;
-  }
-`;
-
-export const LinkContainerStyled = styled.div`
-  font-size: 1.2rem;
-  color: ${(props) => (props.home ? "#ff9d01" : "#ff9300")};
 `;
 
 export const LogoContainerStyled = styled.div`
@@ -65,7 +35,6 @@ export const MenuContainer = styled.div`
   @media (max-width: 980px) {
     display: flex;
     font-size: 2rem;
-    color: ${(props) => (props.icon ? "#f7cac9" : "#ffdcdb")};
     cursor: pointer;
     margin-right: 40px;
 
@@ -111,28 +80,6 @@ export const NavListPrincipal = styled.div`
   }
 `;
 
-export const ButtonMenu = styled.div`
-  border-radius: 0;
-  display: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  margin-right: 40px;
-
-  img {
-    width: 50px;
-    border-radius: 15px;
-    padding: 3px;
-  }
-
-  img:hover {
-    background: #b7b7a4;
-  }
-
-  @media (max-width: 980px) {
-    display: flex;
-  }
-`;
-
 export const IconoContainerStyled = styled.div`
   display: flex;
   justify-content: center;
@@ -154,24 +101,6 @@ export const IconoContainerStyled = styled.div`
   @media (max-width: 980px) {
     display: none;
   }
-`;
-
-export const LinkContainer = styled.ul`
-  display: flex;
-  gap: 20px;
-`;
-
-//SPOILER!!!!!!
-export const NavLinkStyled = styled(NavLink)`
-  color: white;
-  &.active {
-    color: steelblue;
-  }
-`;
-
-export const Item = styled.li`
-  display: flex;
-  align-items: center;
 `;
 
 export const LinkNav = styled.a`

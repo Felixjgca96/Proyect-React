@@ -32,24 +32,6 @@ export const Form = styled.div`
   gap: 10px;
 `;
 
-export const ImputFormStyled = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
-  font-size: 16px;
-  color: white;
-  padding: 0.2rem 1rem;
-  background: black;
-  border-radius: 1rem;
-  border: 1px solid #ffffff;
-  cursor: pointer;
-
-  &:hover {
-    background: #b7b7a4;
-    color: black;
-  }
-`;
 export const ButtonFormStyled = styled.div`
   display: flex;
   justify-content: center;

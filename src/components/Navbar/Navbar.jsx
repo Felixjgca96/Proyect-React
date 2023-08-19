@@ -5,10 +5,8 @@ import {
   MenuStyled,
   LogoContainerStyled,
   IconoContainerStyled,
-  LinkContainerStyled,
   NavListPrincipal,
   MenuContainer,
-  ButtonMenu,
 } from "./NavbarStyles";
 import { useContext } from "react";
 import { Contexto } from "./BurgerMenuContext";
